@@ -27,11 +27,11 @@ const siteProps = {
   name: "Moxit Parmar",
   title: "MERN Stack Developer",
   email: "moxitparmar2004@gmail.com",
-  gitHub: "https://github.com/MoxitParmar",
+  gitHub: "MoxitParmar",
   instagram: "",
-  linkedIn: "https://www.linkedin.com/in/moxit-parmar/",
+  linkedIn: "moxit-parmar",
   medium: "",
-  twitter: "https://twitter.com/moxitparmar",
+  twitter: "moxitparmar",
   youTube: "",
 };
 
