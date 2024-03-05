@@ -27090,11 +27090,11 @@ var _stylesCss = require("./styles.css");
     name: "Moxit Parmar",
     title: "MERN Stack Developer",
     email: "moxitparmar2004@gmail.com",
-    gitHub: "https://github.com/MoxitParmar",
+    gitHub: "MoxitParmar",
     instagram: "",
-    linkedIn: "https://www.linkedin.com/in/moxit-parmar/",
+    linkedIn: "moxit-parmar",
     medium: "",
-    twitter: "https://twitter.com/moxitparmar",
+    twitter: "moxitparmar",
     youTube: ""
 };
 const primaryColor = "#4E567E";
@@ -28900,6 +28900,6 @@ $RefreshReg$(_c, "Portfolio");
 },{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
 module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
 
-},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire6158")
+},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire3334")
 
 //# sourceMappingURL=index.975ef6c8.js.map
