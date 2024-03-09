@@ -2,6 +2,7 @@
 * CSS file to hold styles that apply across the application
 */
 
+
 @import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400&family=Montserrat:wght@200;400;600;800&display=swap");
 
 html,
@@ -96,6 +97,51 @@ li::marker {
 a {
   color: black;
   text-decoration: none;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  p.large {
+    font-size: 20px;
+  }
+
+  p.small {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  p.large {
+    font-size: 18px;
+  }
+
+  p.small {
+    font-size: 12px;
+  }
 }
 
 a:hover {
