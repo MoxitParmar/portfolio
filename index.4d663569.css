@@ -92,13 +92,57 @@ a {
   text-decoration: none;
 }
 
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 4rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  p.large {
+    font-size: 20px;
+  }
+
+  p.small {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  p.large {
+    font-size: 18px;
+  }
+
+  p.small {
+    font-size: 12px;
+  }
+}
+
 a:hover {
   color: #4e567e;
 }
 
 .container {
   grid-gap: 20px;
-  grid-template-columns: 330px 300px;
+  grid-template-columns: 600px 600px;
   margin: 20px auto;
   display: grid;
 }

@@ -28755,10 +28755,7 @@ var _reactDefault = parcelHelpers.interopDefault(_react);
  *
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
- */ var _designDeskJpeg = require("../images/design-desk.jpeg");
-var _designDeskJpegDefault = parcelHelpers.interopDefault(_designDeskJpeg);
-const imageAltText = "desktop with books and laptop";
-/**
+ */ /**
  * Project list
  *
  * An array of objects that will be used to display for your project
@@ -28770,9 +28767,19 @@ const imageAltText = "desktop with books and laptop";
         url: "https://github.com/MoxitParmar/airbnb-project"
     },
     {
-        title: "API based weather Application",
-        description: "Designed and implemented an API-based weather application using React for dynamic user interfaces. Leveraged React's component-based architecture for efficient rendering and user interaction, enhancing user experience.",
-        url: "https://github.com/MoxitParmar/weather-API"
+        title: "Youtube backend by node.js",
+        description: "Developed VideoVerse, a complete backend web application similar to YouTube, built with the Node.js and Express.js for the backend, integrating MongoDB with Mongoose. Implemented JWT tokens for user authentication, video upload,tweets, playlists, subscribers, and liked videos with infinite scroll pagination and comment functionality.",
+        url: "https://github.com/MoxitParmar/VideoVerse"
+    },
+    {
+        title: "React based Calculator Application with Aceternity.ui",
+        description: "Designed and implemented an React-based Calculator application using Aceternity.ui for dynamic user interfaces.",
+        url: "https://github.com/MoxitParmar/reactCalculator"
+    },
+    {
+        title: "Api based article summarizer react Application",
+        description: "Designed and implemented an API-based article summarizer application using React for dynamic user interfaces. Leveraged React's component-based architecture for efficient rendering and user interaction, enhancing user experience.",
+        url: "https://github.com/MoxitParmar/webLOOKup"
     },
     // {
     //   title: "My Resume Site",
@@ -28781,9 +28788,14 @@ const imageAltText = "desktop with books and laptop";
     //   url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
     // },
     {
-        title: "React based To-Do app with Redux",
+        title: "React based To-Do app with Redux and localstorage",
         description: "Developed a React-based to-do list application, enhancing state management with Redux for streamlined data flow. Utilized Redux's centralized store and actions to manage application state efficiently, providing a seamless user experience.",
-        url: "https://github.com/MoxitParmar/React-bassed-to-do-app"
+        url: "https://github.com/MoxitParmar/react-redux-todo"
+    },
+    {
+        title: "API based weather Application",
+        description: "Designed and implemented an API-based weather application using React for dynamic user interfaces. Leveraged React's component-based architecture for efficient rendering and user interaction, enhancing user experience.",
+        url: "https://github.com/MoxitParmar/weather-API"
     }, 
 ];
 const Portfolio = ()=>{
@@ -28798,7 +28810,7 @@ const Portfolio = ()=>{
                 children: "Projects"
             }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 62,
+                lineNumber: 77,
                 columnNumber: 7
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
@@ -28807,83 +28819,58 @@ const Portfolio = ()=>{
                     flexDirection: "row",
                     paddingTop: "3rem"
                 },
-                children: [
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        style: {
-                            maxWidth: "40%",
-                            alignSelf: "center"
-                        },
-                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("img", {
-                            src: (0, _designDeskJpegDefault.default),
-                            style: {
-                                height: "90%",
-                                width: "100%",
-                                objectFit: "cover"
-                            },
-                            alt: imageAltText
-                        }, void 0, false, {
-                            fileName: "src/Components/Portfolio.jsx",
-                            lineNumber: 65,
-                            columnNumber: 11
-                        }, undefined)
-                    }, void 0, false, {
-                        fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 64,
-                        columnNumber: 9
-                    }, undefined),
-                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                        className: "container",
-                        children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
-                                className: "box",
-                                children: [
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                        href: project.url,
-                                        target: "_blank",
-                                        rel: "noopener noreferrer",
-                                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
-                                            style: {
-                                                flexBasis: "40px"
-                                            },
-                                            children: project.title
-                                        }, void 0, false, {
-                                            fileName: "src/Components/Portfolio.jsx",
-                                            lineNumber: 75,
-                                            columnNumber: 17
-                                        }, undefined)
+                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                    className: "container",
+                    children: projectList.map((project)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
+                            className: "box",
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                    href: project.url,
+                                    target: "_blank",
+                                    rel: "noopener noreferrer",
+                                    children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                                        style: {
+                                            flexBasis: "40px"
+                                        },
+                                        children: project.title
                                     }, void 0, false, {
                                         fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 74,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-                                        className: "small",
-                                        children: project.description
-                                    }, void 0, false, {
-                                        fileName: "src/Components/Portfolio.jsx",
-                                        lineNumber: 77,
-                                        columnNumber: 15
+                                        lineNumber: 83,
+                                        columnNumber: 17
                                     }, undefined)
-                                ]
-                            }, project.title, true, {
-                                fileName: "src/Components/Portfolio.jsx",
-                                lineNumber: 73,
-                                columnNumber: 13
-                            }, undefined))
-                    }, void 0, false, {
-                        fileName: "src/Components/Portfolio.jsx",
-                        lineNumber: 71,
-                        columnNumber: 9
-                    }, undefined)
-                ]
-            }, void 0, true, {
+                                }, void 0, false, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 82,
+                                    columnNumber: 15
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+                                    className: "small",
+                                    children: project.description
+                                }, void 0, false, {
+                                    fileName: "src/Components/Portfolio.jsx",
+                                    lineNumber: 85,
+                                    columnNumber: 15
+                                }, undefined)
+                            ]
+                        }, project.title, true, {
+                            fileName: "src/Components/Portfolio.jsx",
+                            lineNumber: 81,
+                            columnNumber: 13
+                        }, undefined))
+                }, void 0, false, {
+                    fileName: "src/Components/Portfolio.jsx",
+                    lineNumber: 79,
+                    columnNumber: 9
+                }, undefined)
+            }, void 0, false, {
                 fileName: "src/Components/Portfolio.jsx",
-                lineNumber: 63,
+                lineNumber: 78,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/Components/Portfolio.jsx",
-        lineNumber: 61,
+        lineNumber: 76,
         columnNumber: 5
     }, undefined);
 };
@@ -28897,9 +28884,6 @@ $RefreshReg$(_c, "Portfolio");
   window.$RefreshReg$ = prevRefreshReg;
   window.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","../images/design-desk.jpeg":"jSSP3","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"jSSP3":[function(require,module,exports) {
-module.exports = require("./helpers/bundle-url").getBundleURL("bLxZJ") + "design-desk.df4cd0cf.jpeg" + "?" + Date.now();
-
-},{"./helpers/bundle-url":"lgJ39"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire3334")
+},{"react/jsx-dev-runtime":"iTorj","react":"21dqq","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"km3Ru"}],"lW6qc":[function() {},{}]},["1xC6H","ShInH","8lqZg"], "8lqZg", "parcelRequire3334")
 
 //# sourceMappingURL=index.975ef6c8.js.map
