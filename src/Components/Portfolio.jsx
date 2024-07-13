@@ -19,9 +19,6 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
-
-const imageAltText = "desktop with books and laptop";
 
 /**
  * Project list
@@ -37,10 +34,22 @@ const projectList = [
     url: "https://github.com/MoxitParmar/airbnb-project",
   },
   {
-    title: "API based weather Application",
+    title: "Youtube backend by node.js",
     description:
-      "Designed and implemented an API-based weather application using React for dynamic user interfaces. Leveraged React's component-based architecture for efficient rendering and user interaction, enhancing user experience.",
-    url: "https://github.com/MoxitParmar/weather-API",
+      "Developed VideoVerse, a complete backend web application similar to YouTube, built with the Node.js and Express.js for the backend, integrating MongoDB with Mongoose. Implemented JWT tokens for user authentication, video upload,tweets, playlists, subscribers, and liked videos with infinite scroll pagination and comment functionality.",
+    url: "https://github.com/MoxitParmar/VideoVerse",
+  },
+  {
+    title: "React based Calculator Application with Aceternity.ui",
+    description:
+      "Designed and implemented an React-based Calculator application using Aceternity.ui for dynamic user interfaces.",
+    url: "https://github.com/MoxitParmar/reactCalculator",
+  },
+  {
+    title: "Api based article summarizer react Application",
+    description:
+      "Designed and implemented an API-based article summarizer application using React for dynamic user interfaces. Leveraged React's component-based architecture for efficient rendering and user interaction, enhancing user experience.",
+    url: "https://github.com/MoxitParmar/webLOOKup",
   },
   // {
   //   title: "My Resume Site",
@@ -49,10 +58,16 @@ const projectList = [
   //   url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
   // },
   {
-    title: "React based To-Do app with Redux",
+    title: "React based To-Do app with Redux and localstorage",
     description:
       "Developed a React-based to-do list application, enhancing state management with Redux for streamlined data flow. Utilized Redux's centralized store and actions to manage application state efficiently, providing a seamless user experience.",
-    url: "https://github.com/MoxitParmar/React-bassed-to-do-app",
+    url: "https://github.com/MoxitParmar/react-redux-todo",
+  },
+  {
+    title: "API based weather Application",
+    description:
+      "Designed and implemented an API-based weather application using React for dynamic user interfaces. Leveraged React's component-based architecture for efficient rendering and user interaction, enhancing user experience.",
+    url: "https://github.com/MoxitParmar/weather-API",
   },
 ];
 
@@ -61,13 +76,6 @@ const Portfolio = () => {
     <section className="padding" id="portfolio">
       <h2 style={{ textAlign: "center" }}>Projects</h2>
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
-        <div style={{ maxWidth: "40%", alignSelf: "center" }}>
-          <img
-            src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
-            alt={imageAltText}
-          />
-        </div>
         <div className="container">
           {projectList.map((project) => (
             <div className="box" key={project.title}>
